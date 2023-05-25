@@ -11,8 +11,11 @@ namespace RecursionPrac
        
         static void Main(string[] args)
         {
-            Fibonacci fibo = new Fibonacci();
-            Console.WriteLine(fibo.Get(500));
+           // Fibonacci fibo = new Fibonacci();
+           // Console.WriteLine(fibo.Get(10));
+
+            FibonacciAdv fiboAdv = new FibonacciAdv();
+            Console.WriteLine(fiboAdv.Get(1000));
         }
     }
 }
